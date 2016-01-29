@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>gameOn</title>
+
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <link href="css/styles.css" rel="stylesheet">
+
+</head>
+
+<body>
+  <div class="container-fluid" id="navigation">
+    <nav class="navbar navbar-inverse navbar-fixed-top" id="header">
+      <div class="navbar-header">
+        <a href="#" class="navbar-brand">
+          <span class="logo">game<span class="onLogo">On</span></span>
+        </a>
+
+        <!-- Collapse toggle button -->
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#collapsable">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <!-- Collapse toggle button end -->
+
+      </div>
+      <!--Navbar Header end -->
+      <div class="collapse navbar-collapse " id="collapsable">
+
+        <ul class="nav navbar-nav navbar-left" id="navbarItems">
+          <li class="active"><a href="#">Home</a></li>
+          <li><a href="#">Games</a></li>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">About</a></li>
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Support <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#"><span class="glyphicon glyphicon-envelope"></span> Email us</a></li>
+              <li><a href="#"><span class="glyphicon glyphicon glyphicon-comment"></span> Chat with agent</a></li>
+            </ul>
+          </li>
+        </ul>
+        <!--navbarItems end -->
+
+        <form class="navbar-form navbar-right" id="searchBar">
+          <div class="form-group">
+            <input type="text" class="form-control" placeholder="Search for games">
+          </div>
+          <button type="submit" class="btn btn-success" placeholder="search">Go!</button>
+        </form>
+
+      </div>
+      <!--collapsable end -->
+    </nav>
+    <!--Navbar end -->
+
+    <div class="col-12 visible-xs" id="playMobile">
+      <a href="" class="btn btn-large btn-block btn-success "><span class="glyphicon glyphicon-phone"></span> Play in mobile!</a>
+    </div>
+
+  </div>
+  <!--Navigation container end -->
+
+  <div class="carousel slide hidden-xs" id="myCarousel">
+    <div class="carousel-inner">
+
+      <!-- <ol class="carousel-indicators">
+          <li class="active" data-slide-to="0" data-target="#myCarousel"></li>
+          <li data-slide-to="1" data-target="#myCarousel"></li>
+          <li data-slide-to="2" data-target="#myCarousel"></li>
+        </ol> -->
+
+      <div class="item active" id="Slide1">
+        <div class="carousel-caption">
+          <h4>Play all the games in browser</h4>
+          <p>All the supported games can be played in broswer using remote connection!</p>
+        </div>
+      </div>
+
+      <div class="item" id="Slide2">
+        <div class="carousel-caption">
+          <h4>Supporting hundreds of popular games</h4>
+          <p>Games from all the major publishers are supported</p>
+        </div>
+      </div>
+
+      <a class="left carousel-control" data-slide="prev" href="#myCarousel"><span class="icon-prev"></span></a>
+      <a class="right carousel-control" data-slide="next" href="#myCarousel"><span class="icon-next"></span></a>
+
+
+    </div>
+    <!--Carousel end -->
+ </div>
+    <div class="container" id="main">
+      <div class="well">
+        <div class="row">
+          <div class="col-sm-4">
+            <div class="panel panel-primary feature">
+              <div class="panel-heading">
+                <h3 class="panel-title">1000+ games to play</h3>
+              </div>
+
+              <img src="../img/feature1.png" alt="Feature 1" class="img-circle">
+              <p class="lead">Play any game without any hassle</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+                aute irure dolor in reprehenderit in voluptate velit esse  </p>
+              <button type="button" class="btn btn-warning btn-block">View the list</button>
+            </div>
+            <!--Panel end-->
+          </div>
+
+          <div class="col-sm-4">
+            <div class="panel panel-primary feature">
+              <div class="panel-heading">
+                <h3 class="panel-title">First month free</h3>
+              </div>
+
+              <img src="../img/feature2.png" alt="Feature 2" class="img-circle">
+              <p class="lead">Register and play free for a month</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+                aute irure dolor in reprehenderit in voluptate velit esse  </p>
+              <button type="button" class="btn btn-danger btn-block">Register or Sign In</button>
+            </div>
+            <!--Panel end-->
+          </div>
+
+          <div class="col-sm-4">
+            <div class="panel panel-primary feature">
+              <div class="panel-heading">
+                <h3 class="panel-title">24 X 7 support</h3>
+              </div>
+
+              <img src="../img/feature3.png" alt="Feature 3" class="img-circle">
+              <p class="lead">Email or chat our agents any time</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+                aute irure dolor in reprehenderit in voluptate velit esse  </p>
+              <button type="button" class="btn btn-info btn-block">Contact Support</button>
+            </div>
+            <!--Panel end-->
+          </div>
+        </div>
+      </div>
+      <!--Row end-->
+
+      <div class = "row">
+        <div class="col-sm-6">
+          <h3>Popular categories</h3>
+          <ul class="nav nav-pills">
+            <li class="active"><a href="#tab1" data-toggle="tab">Action</a></li>
+            <li><a href="#tab2" data-toggle="tab">Adventure</a></li>
+            <li><a href="#tab3" data-toggle="tab">Sports</a></li>
+            <li><a href="#tab4" data-toggle="tab">Racing</a></li>
+          </ul>
+
+          <div class="tab-content">
+            <div class="tab-pane active" id="tab1">
+              <ul class="list-group">
+                <li class="list-group-item">Action Game 1</li>
+                <li class="list-group-item">Action Game 2</li>
+                <li class="list-group-item">Action Game 3</li>
+                <li class="list-group-item">Action Game 4</li>
+                <a href="#" class="list-group-item active">View More</a>
+              </ul>
+            </div>
+
+            <div class="tab-pane " id="tab2">
+              <ul class="list-group">
+                <li class="list-group-item">Adventure Game 1</li>
+                <li class="list-group-item">Adventure Game 2</li>
+                <li class="list-group-item">Adventure Game 3</li>
+                <li class="list-group-item">Adventure Game 4</li>
+                <a href="#" class="list-group-item active">View More</a>
+              </ul>
+            </div>
+
+            <div class="tab-pane " id="tab3">
+              <ul class="list-group">
+                <li class="list-group-item">Game 1</li>
+                <li class="list-group-item">Game 2</li>
+                <li class="list-group-item">Game 3</li>
+                <li class="list-group-item">Game 4</li>
+                <a href="#" class="list-group-item active">View More</a>
+              </ul>
+            </div>
+          </div>  <!--tab content end -->
+        </div><!--col-sm-6 end -->
+        <div class="col-sm-6">
+          <h3>Top Rated list</h3>
+          <ul class="list-group">
+            <li class="list-group-item">Counter Strike <span class="label label-warning">4.5</span></li>
+            <li class="list-group-item">Call of Duty <span class="label label-warning">4.3</span></li>
+            <li class="list-group-item">Far Cry <span class="label label-warning">4.1</span></li>
+            <li class="list-group-item">Need for Speed <span class="label label-warning">4.0</span></li>
+            <li class="list-group-item ">Dota <span class="label label-warning">4.0</span></li>
+            <button class="list-group-item active " id="btnRating">Rate a game</button>
+          </ul>
+        </div><!--col-sm-6 end -->
+      </div><!--Row end -->
+    </div>
+    <!--main container end -->
+  
+
+
+</body>

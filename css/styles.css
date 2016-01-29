@@ -1,0 +1,71 @@
+@font-face {
+  font-family: PoiretOne;
+  src: url('../fonts/PoiretOne.ttf') format('truetype');
+}
+@font-face {
+  font-family: Raleway;
+  src: url('../fonts/Raleway-Regular.ttf') format('truetype');
+}
+body::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #F5F5F5;
+}
+body::-webkit-scrollbar {
+  width: 8px;
+  background-color: #F5F5F5;
+}
+body::-webkit-scrollbar-thumb {
+  background-color: #5cb85c;
+}
+#main p {
+  font-family: 'Raleway', sans-serif;
+}
+.logo {
+  font-family: PoiretOne;
+  font-size: 40px;
+  color: white;
+  font-weight: lighter;
+  letter-spacing: -1px;
+}
+.onLogo {
+  color: #5cb85c;
+}
+#playMobile {
+  margin-top: 70px;
+}
+#searchBar {
+  margin-right: 10px;
+}
+#myCarousel {
+  margin-top: 40px;
+  padding: 0px 0px;
+}
+#myCarousel .item {
+  height: 700px;
+}
+.carousel-caption {
+  top: 80px;
+  font-size: 24px;
+}
+.carousel-caption h4 {
+  font-size: 32px;
+}
+.carousel-caption p {
+  font-family: PoiretOne;
+}
+#Slide1 {
+  background: url("../img/lg2.png") top no-repeat;
+}
+#Slide2 {
+  background: url("../img/lg1.png") top no-repeat;
+}
+#main {
+  margin-top: 30px;
+}
+.feature {
+  text-align: center;
+}
+.feature img {
+  padding: 15px;
+  height: 120px;
+}

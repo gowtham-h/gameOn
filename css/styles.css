@@ -6,6 +6,9 @@
   font-family: Raleway;
   src: url('../fonts/Raleway-Regular.ttf') format('truetype');
 }
+
+/*For scrollbar effects*/
+
 body::-webkit-scrollbar-track {
   -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
   background-color: #F5F5F5;
@@ -20,7 +23,7 @@ body::-webkit-scrollbar-thumb {
 #main p {
   font-family: 'Raleway', sans-serif;
 }
-#gamesMain{
+#gamesMain {
   margin-top: 60px;
 }
 .logo {
@@ -30,6 +33,9 @@ body::-webkit-scrollbar-thumb {
   font-weight: lighter;
   letter-spacing: -1px;
 }
+
+/*Green color for 'On' in Logo*/
+
 .onLogo {
   color: #5cb85c;
 }
@@ -39,6 +45,9 @@ body::-webkit-scrollbar-thumb {
 #searchBar {
   margin-right: 10px;
 }
+
+/*Carousel CSS*/
+
 #myCarousel {
   margin-top: 40px;
   padding: 0px 0px;
@@ -65,6 +74,9 @@ body::-webkit-scrollbar-thumb {
 #main {
   margin-top: 30px;
 }
+
+/*CSS for features section*/
+
 .feature {
   text-align: center;
 }
@@ -72,79 +84,78 @@ body::-webkit-scrollbar-thumb {
   padding: 15px;
   height: 120px;
 }
-.unstyled{
+.unstyled {
   list-style: none;
 }
-.unstyled li{
+.unstyled li {
   display: inline;
-  padding:5px 15px;
+  padding: 5px 15px;
   font-size: 16px;
 }
-.faLinks li{
+.faLinks li {
   display: inline;
- list-style:none;
- padding-right: 5px;
+  list-style: none;
+  padding-right: 5px;
 }
-.faLinks li a{
-  text-decoration:none;
+.faLinks li a {
+  text-decoration: none;
   color: white;
   font-size: 24px;
-  padding:6px 11px;
+  padding: 6px 11px;
   border-radius: 3px;
 }
-footer{
+
+/*CSS for footer*/
+
+footer {
   background-color: #333;
   color: white !important;
   min-height: 100px;
 }
-footer .row{
-  margin-top:30px;
+footer .row {
+  margin-top: 30px;
 }
-.fa-facebook:hover{
+
+/*CSS for social netoworking links*/
+
+.fa-facebook:hover {
   background-color: #3B5998;
 }
-.fa-twitter:hover{
+.fa-twitter:hover {
   background-color: #00aced;
 }
-.fa-google-plus:hover{
+.fa-google-plus:hover {
   background-color: #dd4b39;
 }
-.fa-github:hover{
-  background-color:black;
+.fa-github:hover {
+  background-color: black;
 }
-.fa-stumbleupon:hover{
+.fa-stumbleupon:hover {
   background-color: #EB4823;
 }
 
-
-
 /* CSS for Games page */
 
-
 .thumbnails {
-	margin: 20px 0;
+  margin: 20px 0;
 }
-.thumbnails img{
-}
+.thumbnails img {}
 .thumbnail h2 {
-	font-size: 18px;
-	margin: 0 0 10px;
-	line-height: 20px;
+  font-size: 18px;
+  margin: 0 0 10px;
+  line-height: 20px;
 }
-
 .thumbnail .price {
-	font-size: 22px;
-	position: absolute;
-	top: -10px;
-	right: -10px;
-	padding: 10px;
+  font-size: 22px;
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  padding: 10px;
 }
-
 .thumbnail .price sup {
-	font-weight: normal;
-	font-size: 12px;
+  font-weight: normal;
+  font-size: 12px;
 }
-
 .thumbnail span.glyphicon {
-	margin-right: 5px;
+  margin-right: 5px;
 }
